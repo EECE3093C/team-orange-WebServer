@@ -16,6 +16,7 @@
 
 
 ### Packet format for communication to web server: JSON or form
+```
 {
 user_id: "my_victim_id_123, can be a long random number unique to each user (should not change on reboot)", 
 session_id: "random number that is reset every time the process starts"
@@ -23,3 +24,4 @@ time: "12:00:00 1/2/3"
 keystroke: "SHIFTUP"
 key_count: # of keystrokes that have been sent since session started
 }
+```
