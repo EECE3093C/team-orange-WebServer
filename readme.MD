@@ -25,3 +25,11 @@ keystroke: "SHIFTUP"
 key_count: # of keystrokes that have been sent since session started
 }
 ```
+
+### URL Endpoints
+```/``` The base homepage of the website. Allows selection of which user to analyze
+
+```/_keylogger_endpoint``` The URL to send packets from the keylogger to
+
+```/analysis``` The keystroke analyzer
+s

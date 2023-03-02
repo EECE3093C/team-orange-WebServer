@@ -2,6 +2,9 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+@app.route("/analysis")
+def analysis():
+    return "FIXME"
 
 
 @app.route("/_keylogger_endpoint", methods=['POST'])
