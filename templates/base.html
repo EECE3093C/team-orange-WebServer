@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TeamOrange Keylogger Server</title>
+
+    <style>
+
+        body {
+            background-color: #FF7700;
+            color: #251D3A;
+            height: 100%;
+            display: block;
+            margin:0;
+        }
+
+    </style>
+</head>
+<body>
+
+<style>
+#header {
+    text-align: center;
+    align-content: center;
+    height: 10%;
+}
+#content {
+    height: 90%;
+    border: solid 5px #E04D01;
+    border-radius: 10px;
+    background-color: antiquewhite;
+
+}
+.block {
+    display: flex;
+}
+</style>
+<div id="header" class="block">
+    <h1 style="width:100%;">Team Orange</h1>
+</div>
+<br>
+<div id="content" class="block">{%  block content %}{% endblock %}</div>
+
+</body>
+</html>
